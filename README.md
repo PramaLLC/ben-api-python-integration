@@ -10,7 +10,7 @@ cd ben-api-python-integration
 pip install -r requirements.txt
 ```
 
-## Generate api token 
+## Generate API Key 
 You must have an active business subscription which can be found at https://backgrounderase.com/pricing. To generate your API key navigate to
 https://backgrounderase.com/account and scroll to the 'API Access' section then press 'Generate Key'.
 
