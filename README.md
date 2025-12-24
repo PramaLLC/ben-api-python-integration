@@ -1,6 +1,6 @@
-# Background Removal API Python Integration
+# BackgroundErase API Python Integration
 
-Python wrapper for the BEN API that removes backgrounds from images.
+Python wrapper for the BackgroundErase API.
 
 ## Installation
 
@@ -11,8 +11,8 @@ pip install -r requirements.txt
 ```
 
 ## Generate api token 
-You must have a business subscription that can be found at https://backgrounderase.net/pricing. To generate the token navigate to
-https://backgrounderase.net/account and scroll to the bottom of the page.
+You must have an active business subscription which can be found at https://backgrounderase.com/pricing. To generate your API key navigate to
+https://backgrounderase.com/account and scroll to the 'API Access' section then press 'Generate Key'.
 
 ## Example
 create example.py
