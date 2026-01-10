@@ -2,12 +2,9 @@
 
 Python wrapper for the BackgroundErase API.
 
-## Installation
-
+## Installation 
 ```bash
-git clone https://github.com/PramaLLC/ben-api-python-integration
-cd ben-api-python-integration
-pip install -r requirements.txt
+pip install git+https://github.com/PramaLLC/ben-api-python-integration.git
 ```
 
 ## Generate API Key 
@@ -15,20 +12,16 @@ You must have an active business subscription which can be found at https://back
 https://backgrounderase.com/account and scroll to the 'API Access' section then press 'Generate Key'.
 
 ## Example
-create example.py
 ```python
+from prama import predict_image
 from PIL import Image
-from main import predict_image # import predict image function from repo
 
-image = Image.open("image.jpg") # your image file path or pil image object
+image = Image.open("image.jpg")
 
-
-mask, foregorund = predict_image(image,"your_ben_api_token")
-
+mask, foreground = predict_image(image,"your_ben_api_token")
 
 mask.save("mask.png")
-foregorund.save("foreground.png")
-
+foreground.save("foreground.png")
 ```
 
 
